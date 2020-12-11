@@ -1,10 +1,24 @@
+@font-face {
+  font-family: "GongGothic_B";
+  src: url("./styles/fonts/Gong\ Gothic\ OTF\ Bold.otf");
+}
+
+@font-face {
+  font-family: "GongGothic_M";
+  src: url("./styles/fonts/Gong\ Gothic\ OTF\ Medium.otf");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "GongGothic_M";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/yellow-bg.png');
 }
 
 code {

@@ -1,0 +1,29 @@
+.Layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    width: 100vw;
+    height: 98vh;
+}
+
+.Card_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 500px;
+    border-radius: 121px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff5d0;
+}
+
+.Card {
+    height: 600px;
+}
+
+.team_intro {
+    font-size: 10px;
+    color: #242424;
+}

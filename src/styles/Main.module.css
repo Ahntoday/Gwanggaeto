@@ -1,0 +1,49 @@
+.Main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.main_txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_txt_1, .main_txt_2_2{
+    font-size: 22px;
+    color: #242424;
+}
+
+.main_txt_2, .main_txt_3 {
+    font-family: "Gonggothic_B";
+    font-size: 30px;
+    color: #242424;
+}
+
+.main_txt_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blank {
+    height: 3rem;
+
+}
+
+.startBtn {
+    width: 12em;
+    height: 3em;
+    border-radius: 59px;
+    background-color: #eb3f30;
+    border:none;
+    font-family: "Gonggothic_B";
+    font-size: 26px;
+    color: #fff;
+    outline: none;
+}
