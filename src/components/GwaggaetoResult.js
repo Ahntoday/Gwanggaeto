@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Result2 from './Result2';
+import Result from './Result';
 import Layout from './Layout';
 import mainImg from '../assets/mainImg.png';
 import first1 from '../assets/first1.png';
@@ -260,7 +260,7 @@ function GwanggaetoResult() {
 
     return (
         <div>
-            <Result2 foodPicture={foodPicture} foodName={foodName} mainMenu={mainMenu} />
+            <Result foodPicture={foodPicture} foodName={foodName} mainMenu={mainMenu} />
             {console.log('FoodPicture: ', foodPicture)}
         </div>
     )

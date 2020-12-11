@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from '../styles/Layout.module.css';
-import bgImg from '../assets/yellow-bg.png';
 
 function Layout({ children }) {
     return (

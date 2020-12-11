@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Layout from './Layout';
 import styles from '../styles/Main.module.css';
 import mainImg from '../assets/mainImg.png'
@@ -17,9 +17,7 @@ function Main(props) {
                         <div className={styles.main_txt_3}>점심판결</div>
                     </div>
                     <div className={styles.blank}></div>
-                    {/* <Link to="/result" ><button className={styles.startBtn}>판결 신청 ></button></Link> */}
                     <Link to="/ggtresult" ><button className={styles.startBtn}>판결 신청 ></button></Link>
-                    {/* <button className={styles.startBtn} onClick={() => props.history.push('/result')}>판결 신청 ></button> */}
                 </div>
             </Layout>
         </div>
